@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    
 }
 
 img {
@@ -33,20 +34,22 @@ ul,li,p,h3 {
 }
 #hamster {
     width: 150px;
+    
 }
 
-#kleur1 {
+.kleur1 {
     background-color: #000000;
     color: white; 
-    width: 150px
+    width: 150px;
+    
 }
 
-#kleur2 {
+.kleur2 {
     background-color: #6f4acf;
     width: 150px;
 }
 
-#kleur3 {
+.kleur3 {
     background-color: #439F99;
     width:150px;
 }
@@ -62,4 +65,8 @@ ul,li,p,h3 {
 }
 #knop2 {
     width: 200px;
+}
+.kleur1, .kleur2, .kleur3 {
+    display:flex;
+    justify-content: space-around;
 }
