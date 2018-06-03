@@ -41,17 +41,20 @@ ul,li,p,h3 {
     background-color: #000000;
     color: white; 
     width: 150px;
+    float: left;
     
 }
 
 .kleur2 {
     background-color: #6f4acf;
     width: 150px;
+    float: left;
 }
 
 .kleur3 {
     background-color: #439F99;
     width:150px;
+    float: left;
 }
 
 #regular {
@@ -66,3 +69,10 @@ ul,li,p,h3 {
 #knop2 {
     width: 200px;
 }
+
+#kleuren {
+    width: 500px;
+    height: 100px;
+    
+}
+
